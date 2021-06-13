@@ -1,0 +1,441 @@
+.num{
+    font-size: 30px;
+}
+
+.round16-css {
+    height: 100px;
+    width: 400px;
+    background-color: limegreen;
+    border: gold solid 3px;
+}
+
+.grp16 {
+    
+    height: 185px;
+    width: 400px;
+    border-radius: 12px;
+    margin-top: 500px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+body {
+   background-image: url('images/backgroundKUR.png');
+}
+
+.second-rd {
+    display: flexbox;
+    
+}
+
+.group-name  {
+    
+    color: white;
+    line-height: 1px;
+    padding-bottom: -20px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 800;
+    
+
+}
+
+.share3 {
+    margin-left: 150px;
+}
+
+.schedule {
+    line-height: 2px;
+    text-transform:uppercase;
+    margin: none;
+}
+.schedule1 {
+    line-height: 2px;
+    text-transform:uppercase;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    
+    
+}
+
+
+
+:root {
+    --mainColor:darkblue;
+  }
+  
+
+  
+  a {
+    color: var(--mainColor);
+    
+  }
+  
+  a:hover {
+    color: transparent;
+    -webkit-text-stroke: 2px var(--mainColor);
+  }
+  
+  @supports not(-webkit-text-stroke: 2px rgb(3, 2, 3)) {
+    a:hover {
+      text-shadow:
+        3px 3px 0 var(--mainColor),
+        -1px -1px 0 var(--mainColor),
+        1px -1px 0 var(--mainColor),
+        -1px 1px 0 var(--mainColor),
+        1px 1px 0 var(--mainColor);
+    }
+  
+  
+  }
+
+.fixt {
+    height: 800px;
+    width: 1270px;
+    background-color: rgb(72, 32, 250);
+    margin-top: 20px;
+    opacity: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    
+    
+}
+.fixt22 {
+    height: 210px;
+    width: 1270px;
+    background-color: rgb(72, 32, 250);
+    margin-top: 10px;
+    opacity: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    
+    
+    
+}
+.fixt33 {
+    height: 210px;
+    width: 1270px;
+    background-color: rgb(72, 32, 250);
+    margin-top: 10px;
+    opacity: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 12px;
+    
+    
+    
+}
+
+
+
+   
+
+.fixt1 {
+    height: 580px;
+    width: 1260px;
+    background-color: darkred;
+    border-radius: 12px;
+    margin-top: 30px;
+    opacity: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    display: flexbox;
+    
+}
+
+
+
+
+
+
+
+.grpA {
+    height: 780px;
+    width: 250px;
+   
+    border-radius: 12px;
+    margin-top: 500px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.final11 {
+    height: 80px;
+    width: 410px;
+   
+    border-radius: 12px;
+    
+    margin: 10px;
+    text-align: center;
+    
+} 
+.final22 {
+    height: 80px;
+    width: 410px;
+    border-radius: 12px;
+    margin-top: 500px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.final33 {
+    height: 80px;
+    width: 410px;
+    border-radius: 12px;
+    margin-top: 500px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+
+  
+
+
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.fixt, .fixt22{
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.grpA {
+  flex: 33.33%;
+ 
+}
+
+.match1 {
+    background-color: gray;
+    border: gold solid 5px;
+    border-radius: 12px;
+
+}
+
+
+.quater {
+    
+    
+    padding-right: 10px;
+    margin-left: 150px;
+    margin-right: 50px;
+    
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+    
+  body {
+      text-transform: uppercase;
+  }  
+  
+  
+
+
+
+
+
+  
+.main1 {
+    height: 460px;
+    width: 1330px;
+    background-color: green;
+    margin-top: 10px;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 80%;
+    
+   
+    
+    
+}
+.groups1{
+    height: 405px;
+    width: 1310px;
+  background-color: white;
+    opacity: 80%;
+    float: left;  
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    text-align: center;
+    
+    
+    
+}
+
+.standing-body{
+  background-image: url('images/Presentation1.jpg');
+}
+
+
+
+#ranking{
+  width: 10px;
+}
+
+
+
+
+
+
+
+
+  table {
+    border-radius:4px;
+    width:100%;
+   
+    margin:10px auto;
+    border-collapse: collapse; 
+    color:black
+    font-size: 15px;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+  }
+  tr {
+    border: 1px solid transparent;
+    z-index:7;
+  }
+ 
+    text-align:center;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  td.highlight {
+    padding:0;
+    width:4px;
+  }
+  td.highlight div {
+    width:4px;
+    height:60px;
+    border-radius:4px;
+  
+    transition: all 0.2s ease-in-out;
+  }
+  tr:hover {
+   box-shadow: 0px 9px 4px -6px grey;
+  }
+  tr:hover td{
+    cursor:pointer;
+    color:red;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+  }
+  
+  /* tr:first-child:hover td {
+    border-top: none;
+  }
+  tr:last-child:hover td {
+    border-bottom: none;
+  } */
+  tr:hover td.highlight div {
+    transform: scaleX(3);
+  }
+
+
+  .rank-schedule {
+    background-color: green;
+
+  }
+
+.rank-head {
+color: gold;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-weight: 800;
+text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 550px) 
+{
+.fixt,.fixt33{
+  width: 425px;
+  height: 2400px;
+  flex-direction: column;
+  display: flex;
+}
+.grpA{
+ display: flex;
+ 
+}
+.fixt22,{
+  width: 550px;
+  height: 800px;
+  flex-direction: column;
+  display: flex;
+  padding: none;
+  margin:none;
+}
+#finals{
+  display: none;
+}
+}
+
+
+@media (max-width: 550px) 
+{
+.groups1{
+ 
+    width: 450px;
+
+
+
+}
+.rank-head {
+
+  font-size: 12px;
+  font-weight: 800;
+  
+  }
+  table {
+  
+    font-size: 12px; 
+  }
+  .main1 {
+ 
+    width: 470px;
+
+   
+    
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
